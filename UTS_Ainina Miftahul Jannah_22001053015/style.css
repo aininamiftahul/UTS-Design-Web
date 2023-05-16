@@ -1,0 +1,399 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    box-shadow: 5px #FFE3B3; 
+}
+
+.logo img {
+    margin-top: 10px;
+    font-size: 50px;
+    max-height: 50px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #752092;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #c957BC;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    background: #752092;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    color: #FFC872;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #fb836f;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+a.tbl-ungu {
+    background: #752092;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFC872;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-ungu:hover {
+    background: #FFC872;
+    text-decoration: none;
+}
+
+a.tbl-kuning {
+    background: #FFC872;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #752092;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-kuning:hover {
+    background: #FFE3B3;
+    text-decoration: none;
+}
+
+.column {
+    float: left;
+    max-width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .col {
+    float: left;
+    max-width: 40%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px whi;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  .card img{
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .card h3{
+    margin-top: -60px;
+    margin-bottom: -10px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+p {
+    color: #752092;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+}
+
+
+h3 {
+    font-family: 'Trebuchet MS';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #752092;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'Trebuchet MS';
+    font-weight: 700px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+
+/* Fitur */
+.atas{
+    background-color: #752092;
+    text-align: center;
+    padding: 30px;
+}
+.atas h1 {
+    color: #FFC872;
+    font-family: 'Trebuchet MS';
+}
+
+.atas p{
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.artikel {
+    background-color: #f7f8f3;
+    padding-top: 20px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #ececec;
+    margin: 10px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span {
+    color: #752092;
+    font-size: 10px;
+}
+
+.blog-text .blog-title {
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+
+.blog-text .blog-title:hover{
+    color: #fb836f;
+    transition: all ease 0.3s;
+}
+
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px -10px;
+}
+
+.blog-text a{
+    color: black;
+    font-size: 10px;
+    margin: 5px 0px;
+}
+
+.blog-text a:hover{
+    color: #fb836f;
+    transition: all ease 0.3s;
+}
+.pelatihan{
+    background-color: #752092;
+    padding-top: 20px;
+}
+.jurnal{
+    background-color: #FFE3B3;
+    padding-top: 20px;
+}
+
+.komunitas{
+    text-align: center;
+}
+
+.komunitas h4{
+    font-family: 'Trebuchet MS';
+    font-weight: 700px;
+    font-size: 15px;
+    margin: 10px 70px 0px 190px;
+    color: black;
+    width: 70%;
+    text-align: center;
+}
+
+.komunitas button{
+    background: #752092;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFC872;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.komunitas button:hover{
+    background: #c957BC;
+    text-decoration: none;
+}
+/* Akhir */
+
+.footer{
+    background-color: #752092;
+    min-height: 100px;
+    margin-top: 100px;
+    text-align: center;    
+    padding-top: 50px;
+    bottom: 0px;
+}
+
+.footer p {
+    color: #FFC872;
+}
