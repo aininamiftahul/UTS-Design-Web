@@ -8,3 +8,8 @@ tombolMenu.onclick = function() {
 menu.onclick = function() {
     menu.classList.toggle('active');
 }
+
+
+function out(){
+    return alert("Apakah Anda ingin keluar?")
+}
